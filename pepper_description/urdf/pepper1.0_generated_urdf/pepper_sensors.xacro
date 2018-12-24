@@ -224,4 +224,13 @@
 		<origin rpy="0 -0.0349066 0" xyz="0.0041 0 0.2159"/>
 		<axis xyz="0 0 0"/>
 	</joint>
+
+	<link name="SurroundingFrontLaser_fake_hokuyo_frame"/>
+	
+	<joint name="LaserSensor/Front_fake_hokuyo_projected_sensor_fixedjoint" type="fixed">
+		<parent link="Tibia"/>
+		<child link="SurroundingFrontLaser_fake_hokuyo_frame"/>
+		<origin rpy="0 0 0" xyz="0.0562 0 -0.334"/>
+		<axis xyz="0 0 0"/>
+	</joint>
 </robot>
