@@ -550,6 +550,7 @@
           <frameName>CameraDepth_optical_frame</frameName>
           <pointCloudCutoff>0.4</pointCloudCutoff>
           <pointCloudCutoffMax>8.0</pointCloudCutoffMax>
+          <useDepth16UC1Format>true</useDepth16UC1Format>
           <!-- <distortionK1>0.00000001</distortionK1>
           <distortionK2>0.00000001</distortionK2>
           <distortionK3>0.00000001</distortionK3>
