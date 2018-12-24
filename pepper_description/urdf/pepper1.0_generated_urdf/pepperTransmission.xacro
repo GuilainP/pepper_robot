@@ -87,7 +87,7 @@
 				<mechanicalReduction>${speed_red_type2A}</mechanicalReduction>
 			</actuator>
 		</transmission>
-		<transmission name="${side}Hand_Transmission">
+<!-- 		<transmission name="${side}Hand_Transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${side}Hand">
   			  <hardwareInterface>PositionJointInterface</hardwareInterface>
@@ -96,7 +96,7 @@
 				<hardwareInterface>PositionJointInterface</hardwareInterface>
 				<mechanicalReduction>${speed_red_type3B}</mechanicalReduction>
 			</actuator>
-		</transmission>
+		</transmission> -->
 
 		</xacro:macro>
 	<xacro:arm_joints_transmissions side="L"/>
