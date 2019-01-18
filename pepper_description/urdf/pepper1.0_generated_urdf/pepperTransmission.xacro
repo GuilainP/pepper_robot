@@ -14,7 +14,7 @@
 	<transmission name="HeadYaw_Transmission">
 		<type>transmission_interface/SimpleTransmission</type>
 		<joint name="HeadYaw">
-        	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+        	<hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
 		</joint>
         <actuator name="HeadYaw_Motor">
 			<mechanicalReduction>${speed_red_type1A}</mechanicalReduction>
@@ -23,7 +23,7 @@
 	<transmission name="HeadPitch_Transmission">
 		<type>transmission_interface/SimpleTransmission</type>
 		<joint name="HeadPitch">
-            <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
         </joint>
 		<actuator name="HeadPitch_Motor">
 			<mechanicalReduction>${speed_red_type2A}</mechanicalReduction>
@@ -35,7 +35,7 @@
 		<transmission name="${side}ShoulderPitch_Transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${side}ShoulderPitch">
-              <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+              <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
             </joint>
 			<actuator name="${side}ShoulderPitch_Motor">
 				<mechanicalReduction>${speed_red_type1A}</mechanicalReduction>
@@ -44,7 +44,7 @@
 		<transmission name="${side}ShoulderRoll_Transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${side}ShoulderRoll">
-     			<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+     			<hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
             </joint>
 			<actuator name="${side}ShoulderRoll_Motor">
 				<mechanicalReduction>${speed_red_type2A}</mechanicalReduction>
@@ -53,7 +53,7 @@
 		<transmission name="${side}ElbowYaw_Transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${side}ElbowYaw">
-              <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+              <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
             </joint>
 			<actuator name="${side}ElbowYaw_Motor">
 				<mechanicalReduction>${speed_red_type1A}</mechanicalReduction>
@@ -62,7 +62,7 @@
 	    <transmission name="${side}ElbowRoll_Transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${side}ElbowRoll">
-    			<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    			<hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
             </joint>
 			<actuator name="${side}ElbowRoll_Motor">
 				<mechanicalReduction>${speed_red_type2A}</mechanicalReduction>
@@ -72,7 +72,7 @@
 		<transmission name="${side}WristYaw_Transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${side}WristYaw">
-              <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+              <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
             </joint>
 			<actuator name="${side}WristYaw_Motor">
 				<mechanicalReduction>${speed_red_type2A}</mechanicalReduction>
@@ -82,7 +82,7 @@
 <!-- 		<transmission name="${side}Hand_Transmission">
 			<type>transmission_interface/SimpleTransmission</type>
 			<joint name="${side}Hand">
-  			  <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+  			  <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
             </joint>
 			<actuator name="${side}Hand_Motor">
 				<mechanicalReduction>${speed_red_type3B}</mechanicalReduction>
@@ -96,7 +96,7 @@
 	<transmission name="HipRoll_Transmission">
 		<type>transmission_interface/SimpleTransmission</type>
 		<joint name="HipRoll">
-		  <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+		  <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
            </joint>
 		<actuator name="HipRoll_Motor">
 			<mechanicalReduction>${speed_red_type4A}</mechanicalReduction>
@@ -105,7 +105,7 @@
 	<transmission name="HipPitch_Transmission">
 		<type>transmission_interface/SimpleTransmission</type>
 		<joint name="HipPitch">
-		  <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+		  <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
            </joint>
 		<actuator name="HipPitch_Motor">
 			<mechanicalReduction>${speed_red_type5A}</mechanicalReduction>
@@ -114,7 +114,7 @@
 	<transmission name="KneePitch_Transmission">
 		<type>transmission_interface/SimpleTransmission</type>
 		<joint name="KneePitch">
-       		<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+       		<hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
            </joint>
                 <actuator name="KneePitch_Motor">
                         <mechanicalReduction>${speed_red_type5A}</mechanicalReduction>
