@@ -322,8 +322,11 @@
         <turnGravityOff>false</turnGravityOff>
     </gazebo>
     <gazebo reference="Tibia">
-        <mu1>0.5</mu1>
-        <mu2>0.5</mu2>
+        <mu1>0.0</mu1>
+        <mu2>0.0</mu2>
+        <kp value="10000000.0" />
+        <kd value="1.0" />
+        <fdir1 value="1 0 0"/>
         <selfCollide>false</selfCollide>
         <turnGravityOff>false</turnGravityOff>
     </gazebo>
