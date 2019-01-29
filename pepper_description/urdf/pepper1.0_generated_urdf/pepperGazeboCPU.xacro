@@ -559,6 +559,11 @@
           <distortionK3>0.0</distortionK3>
           <distortionT1>0.002366597891470404</distortionT1>
           <distortionT2>0.004792417377891919</distortionT2>
+          <CxPrime>0.0</CxPrime>
+          <Cx>166.86986665284704</Cx>
+          <Cy>126.63268197434216</Cy>
+          <focalLength>283.79251147931114</focalLength>
+          <hackBaseline>0.0</hackBaseline>
           <!-- <distortionK1>0.00000001</distortionK1>
           <distortionK2>0.00000001</distortionK2>
           <distortionK3>0.00000001</distortionK3>
