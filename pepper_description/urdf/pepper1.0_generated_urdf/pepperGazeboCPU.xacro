@@ -469,10 +469,10 @@
             </noise>
         </camera>
         <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
-            <robotNamespace>/pepper</robotNamespace>
+            <!-- <robotNamespace>/pepper</robotNamespace> -->
             <alwaysOn>true</alwaysOn>
             <updateRate>5.0</updateRate>
-            <cameraName>camera/front</cameraName>
+            <cameraName>/pepper/camera/front</cameraName>
             <imageTopicName>image_raw</imageTopicName>
             <cameraInfoTopicName>camera_info</cameraInfoTopicName>
             <frameName>CameraTop_optical_frame</frameName>
@@ -507,10 +507,10 @@
             </noise>
         </camera>
         <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
-            <robotNamespace>/pepper</robotNamespace>
+            <!-- <robotNamespace>/pepper</robotNamespace> -->
             <alwaysOn>true</alwaysOn>
             <updateRate>5.0</updateRate>
-            <cameraName>camera/bottom</cameraName>
+            <cameraName>/pepper/camera/bottom</cameraName>
             <imageTopicName>image_raw</imageTopicName>
             <cameraInfoTopicName>camera_info</cameraInfoTopicName>
             <frameName>CameraBottom_optical_frame</frameName>
