@@ -123,18 +123,18 @@
 
         <!-- XACRO -->
         <!-- Disabling wheels, given they are not used in simulation anymore -->
-<!--         <xacro:macro name="wheel_joints_transmissions" params="side">
-                <transmission name="Wheel${side}_Transmission">
-                        <type>transmission_interface/SimpleTransmission</type>
-                        <joint name="Wheel${side}">
-                                <hardwareInterface>EffortJointInterface</hardwareInterface>
-                        </joint>
-                        <actuator name="Wheel${side}_Motor">
-                                <mechanicalReduction>${speed_red_type5B}</mechanicalReduction>
-                        </actuator>
-                </transmission>
+        <xacro:macro name="wheel_joints_transmissions" params="side">
+			<transmission name="Wheel${side}_Transmission">
+			<type>transmission_interface/SimpleTransmission</type>
+			<joint name="Wheel${side}">
+				<hardwareInterface>EffortJointInterface</hardwareInterface>
+			</joint>
+			<actuator name="Wheel${side}_Motor">
+				<mechanicalReduction>${speed_red_type5B}</mechanicalReduction>
+			</actuator>
+			</transmission>
         </xacro:macro>
         <xacro:wheel_joints_transmissions side="FL"/>
         <xacro:wheel_joints_transmissions side="B"/>
-        <xacro:wheel_joints_transmissions side="FR"/> -->
+        <xacro:wheel_joints_transmissions side="FR"/>
 </robot>
